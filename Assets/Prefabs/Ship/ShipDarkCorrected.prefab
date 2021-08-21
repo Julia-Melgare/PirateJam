@@ -960,7 +960,7 @@ MonoBehaviour:
   cannon: {fileID: 1744421222020382806}
   shotPrefab: {fileID: 86247509717845009, guid: 17445727186933f4390ea09c9eb63b26,
     type: 3}
-  reloadTimer: 0
+  reloadTime: 3
   rotateSpeed: 100
 --- !u!1 &4867746682107654976
 GameObject:
@@ -1311,7 +1311,7 @@ MonoBehaviour:
   cannon: {fileID: 5363028937693948593}
   shotPrefab: {fileID: 86247509717845009, guid: 17445727186933f4390ea09c9eb63b26,
     type: 3}
-  reloadTimer: 0
+  reloadTime: 3
   rotateSpeed: 100
 --- !u!1 &7609449770160607100
 GameObject:
@@ -1804,5 +1804,5 @@ MonoBehaviour:
   cannon: {fileID: 131518814359763414}
   shotPrefab: {fileID: 86247509717845009, guid: 17445727186933f4390ea09c9eb63b26,
     type: 3}
-  reloadTimer: 0
+  reloadTime: 3
   rotateSpeed: 100

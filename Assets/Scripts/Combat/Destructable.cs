@@ -10,6 +10,11 @@ public class Destructable : MonoBehaviour
 
     private bool hit = false;
 
+    private void Start()
+    {
+        
+    }
+
     private void OnCollisionEnter(Collision collision)
     {
         if (hit) return;

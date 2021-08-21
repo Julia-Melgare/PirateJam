@@ -8,14 +8,22 @@ public class CannonController : MonoBehaviour
     [SerializeField] private GameObject shotPrefab;
 
     [SerializeField]
-    private float reloadTimer;
+    private float reloadTime;
+
+    private bool canFire;
+
 
     [SerializeField]
     private float rotateSpeed;
 
     private float mouseWheel;
- 
-    
+
+
+    public void Start()
+    {
+        canFire = true;
+    }
+
 
     public void Update()
     {
@@ -33,15 +41,24 @@ public class CannonController : MonoBehaviour
 
         bool fire = Input.GetMouseButtonDown(0);
 
-        if (fire)
+        if (fire && canFire)
         {
             GameObject cannonBall = Instantiate(shotPrefab, cannon.transform.position + (cannon.transform.forward / 2.5f), Quaternion.identity);
             cannonBall.GetComponent<Rigidbody>().AddForce(cannon.transform.forward * 1000f, ForceMode.Acceleration);
+            StartCoroutine(Reload());
+
         }
 
+        
 
 
+    }
 
+    private IEnumerator Reload()
+    {
+        canFire = false;
+        yield return new WaitForSeconds(reloadTime);
+        canFire = true;
     }
 
 }
