@@ -6,6 +6,8 @@ public class WinUIScript : MonoBehaviour
 {
     [SerializeField]
     GameObject winCanvas;
+    [SerializeField]
+    GameObject loseCanvas;
 
     private void OnDisable()
     {
@@ -22,6 +24,6 @@ public class WinUIScript : MonoBehaviour
         if (win)
             winCanvas.SetActive(true);
         else
-            winCanvas.SetActive(false);
+            loseCanvas.SetActive(true);
     }
 }
