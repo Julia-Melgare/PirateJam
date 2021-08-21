@@ -40,7 +40,7 @@ public class MovementController : MonoBehaviour
         //Vector3 buoyancyForce = Vector3.up * buoyancy;
 
         //Vector3 boyTorque = transform.right * buoyancy * Mathf.Sin(Time.time);
-        movementForce = transform.forward * 100f;
+        movementForce = transform.forward * windSpeed;
 
         rigidbody.AddForce(Vector3.ProjectOnPlane(movementForce, Vector3.up));
         ///rigidbody.AddTorque(boyTorque);
