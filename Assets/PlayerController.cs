@@ -5,9 +5,13 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
 
-    public delegate void DamagedEvent(int currentHealth);
+    public delegate void DamagedEvent(float currentHealth);
     public static DamagedEvent damagedEvent;
-    [SerializeField] public int healthPoints { get; private set; } = 5;
+    public delegate void OnEndLevel(bool win);
+    public static event OnEndLevel onEndLevel;
+
+    [SerializeField] public float healthPoints { get; private set; } = 5;
+    public static float maxHealth = 5;
 
     public void Start()
     {
@@ -23,6 +27,12 @@ public class PlayerController : MonoBehaviour
             damagedEvent?.Invoke(healthPoints);
 
         }
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Finish"))
+            onEndLevel?.Invoke(true);
     }
 
 }

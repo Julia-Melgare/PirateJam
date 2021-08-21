@@ -47,9 +47,9 @@ public class MovementController : MonoBehaviour
     }
 
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerStay(Collider other)
     {
         if (other.tag == "SpeedUp")
-            movementForce = other.GetComponent<SpeedEvent>().force;
+            rigidbody.AddForce(other.GetComponent<SpeedEvent>().force, ForceMode.Acceleration);
     }
 }

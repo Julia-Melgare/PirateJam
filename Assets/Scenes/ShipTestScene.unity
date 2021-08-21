@@ -747,6 +747,9 @@ Transform:
 --- !u!1 &609423838
 GameObject:
   m_ObjectHideFlags: 0
+--- !u!1 &679610088
+GameObject:
+  m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}

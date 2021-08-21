@@ -19,7 +19,7 @@ public class GameManager : MonoBehaviour
         PlayerController.damagedEvent += PlayerDamaged;
     }
 
-    private void PlayerDamaged(int currentHealth)
+    private void PlayerDamaged(float currentHealth)
     {
         if(currentHealth <= 0)
         {
