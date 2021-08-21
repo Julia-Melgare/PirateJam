@@ -1,19 +1,17 @@
 {
   "dependencies": {
-<<<<<<< HEAD
     "com.unity.cinemachine": {
       "version": "2.6.9",
       "depth": 0,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
-=======
+    },
     "com.unity.2d.sprite": {
       "version": "1.0.0",
       "depth": 0,
       "source": "builtin",
       "dependencies": {}
->>>>>>> 2ba94f72afc78be07b4e1b5a4f41a253e95b2047
     },
     "com.unity.collab-proxy": {
       "version": "1.7.1",
