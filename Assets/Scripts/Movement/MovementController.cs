@@ -15,11 +15,6 @@ public class MovementController : MonoBehaviour
 
     void Start()
     {
-
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
-
-
         rigidbody = GetComponent<Rigidbody>();
         rigidbody.centerOfMass = Vector3.zero;
         rigidbody.inertiaTensorRotation = new Quaternion(0, 0, 0, 1);

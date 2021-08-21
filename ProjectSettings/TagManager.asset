@@ -6,6 +6,7 @@ TagManager:
   tags:
   - SpeedUp
   - CannonBall
+  - Obstacle
   layers:
   - Default
   - TransparentFX

@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1104449113656631382}
   - component: {fileID: 2632202202308769028}
   - component: {fileID: 2632202202308769029}
+  - component: {fileID: 4015822478356939011}
   m_Layer: 0
   m_Name: formationLarge_stone_cell.034
   m_TagString: Untagged
@@ -113,6 +114,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &4015822478356939011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 380984075335544473}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01c51418020a798498c064fdb0074830, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 5
 --- !u!1 &413010211269453388
 GameObject:
   m_ObjectHideFlags: 0
@@ -126,6 +140,7 @@ GameObject:
   - component: {fileID: 1228020468419306227}
   - component: {fileID: 2632202202308769034}
   - component: {fileID: 2632202202308769035}
+  - component: {fileID: 4636521705801892105}
   m_Layer: 0
   m_Name: formationLarge_stone_cell.029
   m_TagString: Untagged
@@ -226,6 +241,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &4636521705801892105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 413010211269453388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01c51418020a798498c064fdb0074830, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 5
 --- !u!1 &574376487484037589
 GameObject:
   m_ObjectHideFlags: 0
@@ -239,6 +267,7 @@ GameObject:
   - component: {fileID: 1767807198733366723}
   - component: {fileID: 2632202202308769146}
   - component: {fileID: 2632202202308769147}
+  - component: {fileID: 808039412881907571}
   m_Layer: 0
   m_Name: formationLarge_stone_cell.020
   m_TagString: Untagged
@@ -339,6 +368,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &808039412881907571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 574376487484037589}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01c51418020a798498c064fdb0074830, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 5
 --- !u!1 &866045331378513886
 GameObject:
   m_ObjectHideFlags: 0
@@ -352,6 +394,7 @@ GameObject:
   - component: {fileID: 392536994975650676}
   - component: {fileID: 2632202202308769032}
   - component: {fileID: 2632202202308769033}
+  - component: {fileID: 7763573174330043195}
   m_Layer: 0
   m_Name: formationLarge_stone_cell.028
   m_TagString: Untagged
@@ -452,6 +495,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &7763573174330043195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 866045331378513886}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01c51418020a798498c064fdb0074830, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 5
 --- !u!1 &1706018082845727209
 GameObject:
   m_ObjectHideFlags: 0
@@ -465,6 +521,7 @@ GameObject:
   - component: {fileID: 7308854779827159335}
   - component: {fileID: 2632202202308769142}
   - component: {fileID: 2632202202308769143}
+  - component: {fileID: 2773000370691982387}
   m_Layer: 0
   m_Name: formationLarge_stone_cell.027
   m_TagString: Untagged
@@ -565,6 +622,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &2773000370691982387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1706018082845727209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01c51418020a798498c064fdb0074830, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 5
 --- !u!1 &2253962997126290986
 GameObject:
   m_ObjectHideFlags: 0
@@ -578,6 +648,7 @@ GameObject:
   - component: {fileID: 8824255977452135741}
   - component: {fileID: 2632202202308769026}
   - component: {fileID: 2632202202308769027}
+  - component: {fileID: 8802260427250147957}
   m_Layer: 0
   m_Name: formationLarge_stone_cell.033
   m_TagString: Untagged
@@ -678,6 +749,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &8802260427250147957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2253962997126290986}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01c51418020a798498c064fdb0074830, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 5
 --- !u!1 &2626830932721596544
 GameObject:
   m_ObjectHideFlags: 0
@@ -691,6 +775,7 @@ GameObject:
   - component: {fileID: 3010580162645784216}
   - component: {fileID: 2632202202308769118}
   - component: {fileID: 2632202202308769119}
+  - component: {fileID: 3204870155836882855}
   m_Layer: 0
   m_Name: formationLarge_stone_cell.006
   m_TagString: Untagged
@@ -791,6 +876,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &3204870155836882855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2626830932721596544}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01c51418020a798498c064fdb0074830, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 5
 --- !u!1 &2902037955555117152
 GameObject:
   m_ObjectHideFlags: 0
@@ -871,6 +969,7 @@ GameObject:
   - component: {fileID: 21980410540377086}
   - component: {fileID: 2632202202308769114}
   - component: {fileID: 2632202202308769115}
+  - component: {fileID: 1153611020455790299}
   m_Layer: 0
   m_Name: formationLarge_stone_cell.004
   m_TagString: Untagged
@@ -971,6 +1070,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1153611020455790299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3391859592214837956}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01c51418020a798498c064fdb0074830, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 5
 --- !u!1 &3572113645583548178
 GameObject:
   m_ObjectHideFlags: 0
@@ -984,6 +1096,7 @@ GameObject:
   - component: {fileID: 19690377103146918}
   - component: {fileID: 2632202202308769104}
   - component: {fileID: 2632202202308769105}
+  - component: {fileID: 657967161136472207}
   m_Layer: 0
   m_Name: formationLarge_stone_cell.007
   m_TagString: Untagged
@@ -1084,6 +1197,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &657967161136472207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3572113645583548178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01c51418020a798498c064fdb0074830, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 5
 --- !u!1 &3922953828803937303
 GameObject:
   m_ObjectHideFlags: 0
@@ -1097,6 +1223,7 @@ GameObject:
   - component: {fileID: 2157936475225759269}
   - component: {fileID: 2632202202308769138}
   - component: {fileID: 2632202202308769139}
+  - component: {fileID: 1550002431400181343}
   m_Layer: 0
   m_Name: formationLarge_stone_cell.025
   m_TagString: Untagged
@@ -1197,6 +1324,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1550002431400181343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3922953828803937303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01c51418020a798498c064fdb0074830, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 5
 --- !u!1 &4073848768976462937
 GameObject:
   m_ObjectHideFlags: 0
@@ -1210,6 +1350,7 @@ GameObject:
   - component: {fileID: 6216389298355422714}
   - component: {fileID: 2632202202308769116}
   - component: {fileID: 2632202202308769117}
+  - component: {fileID: 8977940849549697054}
   m_Layer: 0
   m_Name: formationLarge_stone_cell.005
   m_TagString: Untagged
@@ -1310,6 +1451,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &8977940849549697054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4073848768976462937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01c51418020a798498c064fdb0074830, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 5
 --- !u!1 &4669788376408775586
 GameObject:
   m_ObjectHideFlags: 0
@@ -1323,6 +1477,7 @@ GameObject:
   - component: {fileID: 1614009017710843463}
   - component: {fileID: 2632202202308769132}
   - component: {fileID: 2632202202308769133}
+  - component: {fileID: 7245238137181343126}
   m_Layer: 0
   m_Name: formationLarge_stone_cell.013
   m_TagString: Untagged
@@ -1423,6 +1578,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &7245238137181343126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4669788376408775586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01c51418020a798498c064fdb0074830, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 5
 --- !u!1 &4855151455602419939
 GameObject:
   m_ObjectHideFlags: 0
@@ -1436,6 +1604,7 @@ GameObject:
   - component: {fileID: 5265222370307671356}
   - component: {fileID: 2632202202308769030}
   - component: {fileID: 2632202202308769031}
+  - component: {fileID: 3050568610131275336}
   m_Layer: 0
   m_Name: formationLarge_stone_cell.035
   m_TagString: Untagged
@@ -1536,6 +1705,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &3050568610131275336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4855151455602419939}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01c51418020a798498c064fdb0074830, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 5
 --- !u!1 &4961831522782470104
 GameObject:
   m_ObjectHideFlags: 0
@@ -1549,6 +1731,7 @@ GameObject:
   - component: {fileID: 8016772221613799112}
   - component: {fileID: 2632202202308769122}
   - component: {fileID: 2632202202308769123}
+  - component: {fileID: 69047512078708098}
   m_Layer: 0
   m_Name: formationLarge_stone_cell.016
   m_TagString: Untagged
@@ -1649,6 +1832,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &69047512078708098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4961831522782470104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01c51418020a798498c064fdb0074830, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 5
 --- !u!1 &5293874017419684879
 GameObject:
   m_ObjectHideFlags: 0
@@ -1662,6 +1858,7 @@ GameObject:
   - component: {fileID: 4863269750850844711}
   - component: {fileID: 2632202202308769148}
   - component: {fileID: 2632202202308769149}
+  - component: {fileID: 7028186689857469781}
   m_Layer: 0
   m_Name: formationLarge_stone_cell.021
   m_TagString: Untagged
@@ -1762,6 +1959,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &7028186689857469781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5293874017419684879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01c51418020a798498c064fdb0074830, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 5
 --- !u!1 &5402652670039845073
 GameObject:
   m_ObjectHideFlags: 0
@@ -1775,6 +1985,7 @@ GameObject:
   - component: {fileID: 1034630978783858949}
   - component: {fileID: 2632202202308769048}
   - component: {fileID: 2632202202308769049}
+  - component: {fileID: 7929411809749441628}
   m_Layer: 0
   m_Name: formationLarge_stone_cell.036
   m_TagString: Untagged
@@ -1875,6 +2086,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &7929411809749441628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5402652670039845073}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01c51418020a798498c064fdb0074830, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 5
 --- !u!1 &5502690907546317668
 GameObject:
   m_ObjectHideFlags: 0
@@ -1888,6 +2112,7 @@ GameObject:
   - component: {fileID: 3540190267309983432}
   - component: {fileID: 2632202202308769150}
   - component: {fileID: 2632202202308769151}
+  - component: {fileID: 450918498098385024}
   m_Layer: 0
   m_Name: formationLarge_stone_cell.023
   m_TagString: Untagged
@@ -1988,6 +2213,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &450918498098385024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5502690907546317668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01c51418020a798498c064fdb0074830, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 5
 --- !u!1 &6045525485841374527
 GameObject:
   m_ObjectHideFlags: 0
@@ -2001,6 +2239,7 @@ GameObject:
   - component: {fileID: 4503091445156700951}
   - component: {fileID: 2632202202308769112}
   - component: {fileID: 2632202202308769113}
+  - component: {fileID: 5100959250040252918}
   m_Layer: 0
   m_Name: formationLarge_stone_cell.003
   m_TagString: Untagged
@@ -2101,6 +2340,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &5100959250040252918
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6045525485841374527}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01c51418020a798498c064fdb0074830, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 5
 --- !u!1 &6324507267685123050
 GameObject:
   m_ObjectHideFlags: 0
@@ -2114,6 +2366,7 @@ GameObject:
   - component: {fileID: 2610625672979583450}
   - component: {fileID: 2632202202308769136}
   - component: {fileID: 2632202202308769137}
+  - component: {fileID: 1007499983371706522}
   m_Layer: 0
   m_Name: formationLarge_stone_cell.024
   m_TagString: Untagged
@@ -2214,6 +2467,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1007499983371706522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6324507267685123050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01c51418020a798498c064fdb0074830, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 5
 --- !u!1 &6560043917812673159
 GameObject:
   m_ObjectHideFlags: 0
@@ -2227,6 +2493,7 @@ GameObject:
   - component: {fileID: 4009618729806111102}
   - component: {fileID: 2632202202308769126}
   - component: {fileID: 2632202202308769127}
+  - component: {fileID: 2003432324720987795}
   m_Layer: 0
   m_Name: formationLarge_stone_cell.018
   m_TagString: Untagged
@@ -2327,6 +2594,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &2003432324720987795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6560043917812673159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01c51418020a798498c064fdb0074830, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 5
 --- !u!1 &6667245368677609788
 GameObject:
   m_ObjectHideFlags: 0
@@ -2340,6 +2620,7 @@ GameObject:
   - component: {fileID: 366399879422873512}
   - component: {fileID: 2632202202308769092}
   - component: {fileID: 2632202202308769093}
+  - component: {fileID: 5651069649990243856}
   m_Layer: 0
   m_Name: formationLarge_stone_cell.001
   m_TagString: Untagged
@@ -2440,6 +2721,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &5651069649990243856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6667245368677609788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01c51418020a798498c064fdb0074830, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 5
 --- !u!1 &6740747908441951789
 GameObject:
   m_ObjectHideFlags: 0
@@ -2453,6 +2747,7 @@ GameObject:
   - component: {fileID: 3529557547755948582}
   - component: {fileID: 2632202202308769130}
   - component: {fileID: 2632202202308769131}
+  - component: {fileID: 659682972144682204}
   m_Layer: 0
   m_Name: formationLarge_stone_cell.012
   m_TagString: Untagged
@@ -2553,6 +2848,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &659682972144682204
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6740747908441951789}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01c51418020a798498c064fdb0074830, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 5
 --- !u!1 &6910613582677672100
 GameObject:
   m_ObjectHideFlags: 0
@@ -2566,6 +2874,7 @@ GameObject:
   - component: {fileID: 7524873946905230259}
   - component: {fileID: 2632202202308769094}
   - component: {fileID: 2632202202308769095}
+  - component: {fileID: 7895288384627853495}
   m_Layer: 0
   m_Name: formationLarge_stone_cell.002
   m_TagString: Untagged
@@ -2666,6 +2975,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &7895288384627853495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6910613582677672100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01c51418020a798498c064fdb0074830, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 5
 --- !u!1 &7145141526738669219
 GameObject:
   m_ObjectHideFlags: 0
@@ -2679,6 +3001,7 @@ GameObject:
   - component: {fileID: 7370079836991944036}
   - component: {fileID: 2632202202308769128}
   - component: {fileID: 2632202202308769129}
+  - component: {fileID: 6279733599307342260}
   m_Layer: 0
   m_Name: formationLarge_stone_cell.011
   m_TagString: Untagged
@@ -2779,6 +3102,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &6279733599307342260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7145141526738669219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01c51418020a798498c064fdb0074830, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 5
 --- !u!1 &7180767939223534064
 GameObject:
   m_ObjectHideFlags: 0
@@ -2792,6 +3128,7 @@ GameObject:
   - component: {fileID: 8341470164115554363}
   - component: {fileID: 2632202202308769050}
   - component: {fileID: 2632202202308769051}
+  - component: {fileID: 8172128137780997621}
   m_Layer: 0
   m_Name: formationLarge_stone_cell.037
   m_TagString: Untagged
@@ -2892,6 +3229,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &8172128137780997621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7180767939223534064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01c51418020a798498c064fdb0074830, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 5
 --- !u!1 &7323234964671128119
 GameObject:
   m_ObjectHideFlags: 0
@@ -2905,6 +3255,7 @@ GameObject:
   - component: {fileID: 8750881955922119598}
   - component: {fileID: 2632202202308769140}
   - component: {fileID: 2632202202308769141}
+  - component: {fileID: 1435013696686309965}
   m_Layer: 0
   m_Name: formationLarge_stone_cell.026
   m_TagString: Untagged
@@ -3005,6 +3356,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1435013696686309965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7323234964671128119}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01c51418020a798498c064fdb0074830, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 5
 --- !u!1 &7335697025364685605
 GameObject:
   m_ObjectHideFlags: 0
@@ -3018,6 +3382,7 @@ GameObject:
   - component: {fileID: 7052729393924433480}
   - component: {fileID: 2632202202308769144}
   - component: {fileID: 2632202202308769145}
+  - component: {fileID: 5270953327829755436}
   m_Layer: 0
   m_Name: formationLarge_stone_cell.019
   m_TagString: Untagged
@@ -3118,6 +3483,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &5270953327829755436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7335697025364685605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01c51418020a798498c064fdb0074830, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 5
 --- !u!1 &7673621545858023319
 GameObject:
   m_ObjectHideFlags: 0
@@ -3131,6 +3509,7 @@ GameObject:
   - component: {fileID: 3261343534561307019}
   - component: {fileID: 2632202202308769036}
   - component: {fileID: 2632202202308769037}
+  - component: {fileID: 1587768786895141573}
   m_Layer: 0
   m_Name: formationLarge_stone_cell.030
   m_TagString: Untagged
@@ -3231,6 +3610,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1587768786895141573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7673621545858023319}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01c51418020a798498c064fdb0074830, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 5
 --- !u!1 &7799386315437193655
 GameObject:
   m_ObjectHideFlags: 0
@@ -3244,6 +3636,7 @@ GameObject:
   - component: {fileID: 230703412995789915}
   - component: {fileID: 2632202202308769106}
   - component: {fileID: 2632202202308769107}
+  - component: {fileID: 4796468137446027497}
   m_Layer: 0
   m_Name: formationLarge_stone_cell.008
   m_TagString: Untagged
@@ -3344,6 +3737,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &4796468137446027497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7799386315437193655}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01c51418020a798498c064fdb0074830, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 5
 --- !u!1 &8027818721501592007
 GameObject:
   m_ObjectHideFlags: 0
@@ -3357,6 +3763,7 @@ GameObject:
   - component: {fileID: 7113057765576743520}
   - component: {fileID: 2632202202308769038}
   - component: {fileID: 2632202202308769039}
+  - component: {fileID: 2436652393384942283}
   m_Layer: 0
   m_Name: formationLarge_stone_cell.031
   m_TagString: Untagged
@@ -3457,6 +3864,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &2436652393384942283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8027818721501592007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01c51418020a798498c064fdb0074830, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 5
 --- !u!1 &8198033583267488175
 GameObject:
   m_ObjectHideFlags: 0
@@ -3470,6 +3890,7 @@ GameObject:
   - component: {fileID: 1303374302724990411}
   - component: {fileID: 2632202202308769124}
   - component: {fileID: 2632202202308769125}
+  - component: {fileID: 4353685278643224815}
   m_Layer: 0
   m_Name: formationLarge_stone_cell.017
   m_TagString: Untagged
@@ -3570,6 +3991,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &4353685278643224815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8198033583267488175}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01c51418020a798498c064fdb0074830, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 5
 --- !u!1 &8238994550373985262
 GameObject:
   m_ObjectHideFlags: 0
@@ -3583,6 +4017,7 @@ GameObject:
   - component: {fileID: 6995781896504058202}
   - component: {fileID: 2632202202308769120}
   - component: {fileID: 2632202202308769121}
+  - component: {fileID: 2330128498924440615}
   m_Layer: 0
   m_Name: formationLarge_stone_cell.015
   m_TagString: Untagged
@@ -3683,6 +4118,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &2330128498924440615
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8238994550373985262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01c51418020a798498c064fdb0074830, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 5
 --- !u!1 &8367824654408994947
 GameObject:
   m_ObjectHideFlags: 0
@@ -3696,6 +4144,7 @@ GameObject:
   - component: {fileID: 4243687197052500466}
   - component: {fileID: 2632202202308769024}
   - component: {fileID: 2632202202308769025}
+  - component: {fileID: 5589821038771884987}
   m_Layer: 0
   m_Name: formationLarge_stone_cell.032
   m_TagString: Untagged
@@ -3796,6 +4245,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &5589821038771884987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8367824654408994947}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01c51418020a798498c064fdb0074830, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 5
 --- !u!1 &8577767859627722776
 GameObject:
   m_ObjectHideFlags: 0
@@ -3809,6 +4271,7 @@ GameObject:
   - component: {fileID: 2551624647828862504}
   - component: {fileID: 2632202202308769090}
   - component: {fileID: 2632202202308769091}
+  - component: {fileID: 1445979489413061765}
   m_Layer: 0
   m_Name: formationLarge_stone_cell
   m_TagString: Untagged
@@ -3909,6 +4372,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1445979489413061765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8577767859627722776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01c51418020a798498c064fdb0074830, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 5
 --- !u!1 &8605883323067942917
 GameObject:
   m_ObjectHideFlags: 0
@@ -3922,6 +4398,7 @@ GameObject:
   - component: {fileID: 3999301360281086442}
   - component: {fileID: 2632202202308769108}
   - component: {fileID: 2632202202308769109}
+  - component: {fileID: 3556211391958175959}
   m_Layer: 0
   m_Name: formationLarge_stone_cell.009
   m_TagString: Untagged
@@ -4022,6 +4499,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &3556211391958175959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8605883323067942917}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01c51418020a798498c064fdb0074830, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 5
 --- !u!1 &8936318716816773566
 GameObject:
   m_ObjectHideFlags: 0
@@ -4035,6 +4525,7 @@ GameObject:
   - component: {fileID: 4996705359428930429}
   - component: {fileID: 2632202202308769110}
   - component: {fileID: 2632202202308769111}
+  - component: {fileID: 1936190864494146719}
   m_Layer: 0
   m_Name: formationLarge_stone_cell.010
   m_TagString: Untagged
@@ -4135,6 +4626,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1936190864494146719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8936318716816773566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01c51418020a798498c064fdb0074830, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 5
 --- !u!1 &9098139942579822472
 GameObject:
   m_ObjectHideFlags: 0
@@ -4148,6 +4652,7 @@ GameObject:
   - component: {fileID: 4192809920304600933}
   - component: {fileID: 2632202202308769134}
   - component: {fileID: 2632202202308769135}
+  - component: {fileID: 6020210676114457407}
   m_Layer: 0
   m_Name: formationLarge_stone_cell.014
   m_TagString: Untagged
@@ -4248,3 +4753,16 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &6020210676114457407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9098139942579822472}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01c51418020a798498c064fdb0074830, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 5

@@ -4,15 +4,14 @@ using UnityEngine;
 
 public class DestroyAfterSeconds : MonoBehaviour
 {
+    [SerializeField]
+    private float delay;
+
     // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
-        Destroy(gameObject, 2f + UnityEngine.Random.Range(0, 1f));
+        Destroy(gameObject, delay + UnityEngine.Random.Range(0, delay/2f));
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
 }
