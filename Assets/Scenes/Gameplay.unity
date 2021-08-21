@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 71f14a2d79f732f4d9893ef1b911f4ff, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.4839615, g: 0.57574034, b: 0.68019885, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -99,7 +99,8 @@ LightmapSettings:
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 112000004, guid: 91a7ed77e17745f4eb1c590df70acb60,
     type: 2}
-  m_LightingSettings: {fileID: 0}
+  m_LightingSettings: {fileID: 4890085278179872738, guid: e6bf95ac555fa7c46a778f1a317e0000,
+    type: 2}
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -153,7 +154,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6b9689407cb4f14397dbdd3728248c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _player: {fileID: 0}
+  _player: {fileID: 1091631164}
 --- !u!4 &42705034
 Transform:
   m_ObjectHideFlags: 0
@@ -294,7 +295,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 90333405}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.663201, y: 24.59, z: -18.31358}
+  m_LocalPosition: {x: -10.579378, y: 25, z: -10.633757}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1057888216}
@@ -369,7 +370,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 191895814}
-  m_LocalRotation: {x: 0.30514205, y: 0.4790231, z: -0.18210724, w: 0.80265945}
+  m_LocalRotation: {x: 0.32953924, y: 0.34974644, z: -0.13296092, w: 0.8668349}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -455,8 +456,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 342582802}
-  m_LocalRotation: {x: 0.40141836, y: 0.460877, z: -0.24591254, w: 0.7523182}
-  m_LocalPosition: {x: -9.663201, y: 24.59, z: -18.31358}
+  m_LocalRotation: {x: 0.4351509, y: 0.3365829, z: -0.17959225, w: 0.81553805}
+  m_LocalPosition: {x: -10.579378, y: 25, z: -10.633757}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -720,7 +721,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 708873801}
-  m_LocalRotation: {x: 0.34883162, y: 0.4766698, z: -0.21369746, w: 0.77809757}
+  m_LocalRotation: {x: 0.3781451, y: 0.34811646, z: -0.15606529, w: 0.8434838}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -920,7 +921,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1057888214}
-  m_LocalRotation: {x: 0.40141836, y: 0.46087706, z: -0.24591255, w: 0.75231826}
+  m_LocalRotation: {x: 0.43515086, y: 0.3365829, z: -0.17959225, w: 0.8155381}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -1093,17 +1094,17 @@ PrefabInstance:
     - target: {fileID: 6999254279272382202, guid: 6ffae93794f6d3b4da275cb47850f24c,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.7
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6999254279272382202, guid: 6ffae93794f6d3b4da275cb47850f24c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.41
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6999254279272382202, guid: 6ffae93794f6d3b4da275cb47850f24c,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -11.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6999254279272382202, guid: 6ffae93794f6d3b4da275cb47850f24c,
         type: 3}

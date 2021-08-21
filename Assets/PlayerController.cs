@@ -7,7 +7,6 @@ public class PlayerController : MonoBehaviour
 
     public delegate void DamagedEvent(int currentHealth);
     public static DamagedEvent damagedEvent;
-
     [SerializeField] public int healthPoints { get; private set; } = 5;
 
     public void Start()
@@ -21,6 +20,8 @@ public class PlayerController : MonoBehaviour
         if (collision.gameObject.CompareTag("Obstacle"))
         {
             healthPoints--;
+            damagedEvent?.Invoke(healthPoints);
+
         }
     }
 
