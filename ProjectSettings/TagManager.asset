@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - SpeedUp
+  - CannonBall
   layers:
   - Default
   - TransparentFX

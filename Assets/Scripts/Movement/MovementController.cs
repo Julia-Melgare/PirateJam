@@ -13,11 +13,16 @@ public class MovementController : MonoBehaviour
     public float buoyancy;
     public float windSpeed;
 
-
     void Start()
     {
+
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
+
+
         rigidbody = GetComponent<Rigidbody>();
-        
+        rigidbody.centerOfMass = Vector3.zero;
+        rigidbody.inertiaTensorRotation = new Quaternion(0, 0, 0, 1);
     }
 
     private void Update()
@@ -40,7 +45,7 @@ public class MovementController : MonoBehaviour
         //Vector3 buoyancyForce = Vector3.up * buoyancy;
 
         //Vector3 boyTorque = transform.right * buoyancy * Mathf.Sin(Time.time);
-        movementForce = transform.forward * 100f;
+        movementForce = transform.forward * windSpeed;
 
         rigidbody.AddForce(Vector3.ProjectOnPlane(movementForce, Vector3.up));
         ///rigidbody.AddTorque(boyTorque);
