@@ -51,5 +51,6 @@ public class MovementController : MonoBehaviour
     {
         if (other.tag == "SpeedUp")
             rigidbody.AddForce(other.GetComponent<SpeedEvent>().force, ForceMode.Acceleration);
+            other.gameObject.GetComponent<AudioSource>().Play();
     }
 }

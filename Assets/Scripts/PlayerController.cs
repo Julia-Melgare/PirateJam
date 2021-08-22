@@ -23,6 +23,7 @@ public class PlayerController : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Obstacle"))
         {
+            collision.gameObject.GetComponent<AudioSource>().Play();
             healthPoints--;
             damagedEvent?.Invoke(healthPoints);
             if (healthPoints <= 0)
