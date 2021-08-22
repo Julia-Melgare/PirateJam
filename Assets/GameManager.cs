@@ -12,19 +12,32 @@ public class GameManager : MonoBehaviour
     private void OnDisable()
     {
         PlayerController.damagedEvent -= PlayerDamaged;
+        PlayerController.onEndLevel -= CheckWin;
     }
 
     private void OnEnable()
     {
         PlayerController.damagedEvent += PlayerDamaged;
+        PlayerController.onEndLevel += CheckWin;
     }
 
     private void PlayerDamaged(float currentHealth)
     {
         if(currentHealth <= 0)
         {
-            //GAME OVER
-            
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+            Time.timeScale = 0;
+        }
+    }
+
+    private void CheckWin(bool win)
+    {
+        if (win)
+        {
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+            Time.timeScale = 0;
         }
     }
 }

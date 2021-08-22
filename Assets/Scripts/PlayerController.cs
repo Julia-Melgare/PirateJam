@@ -25,6 +25,10 @@ public class PlayerController : MonoBehaviour
         {
             healthPoints--;
             damagedEvent?.Invoke(healthPoints);
+            if (healthPoints <= 0)
+            {
+                onEndLevel?.Invoke(false);
+            }
 
         }
     }
@@ -32,7 +36,11 @@ public class PlayerController : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Finish"))
+        {
             onEndLevel?.Invoke(true);
+        }
+            
+
     }
 
 }
