@@ -53,7 +53,11 @@ public class MultiSceneController : MonoBehaviour
 
     private void LoadLevel(string level)
     {
+
         SceneManager.LoadSceneAsync(level);
+
+        if (level == "TitleScreen") return;
+
         SceneManager.LoadSceneAsync(gameplayScene, LoadSceneMode.Additive);
         SceneManager.LoadSceneAsync(uiScene, LoadSceneMode.Additive);
     }
