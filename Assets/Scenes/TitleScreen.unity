@@ -2468,9 +2468,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 1
-      - m_Target: {fileID: 1206493273}
-        m_TargetAssemblyTypeName: SceneController, Assembly-CSharp
-        m_MethodName: LoadGameScene
+      - m_Target: {fileID: 1104006732}
+        m_TargetAssemblyTypeName: MultiSceneController, Assembly-CSharp
+        m_MethodName: LoadFirstLevel
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3330,6 +3330,7 @@ GameObject:
   - component: {fileID: 1104006731}
   - component: {fileID: 1104006730}
   - component: {fileID: 1104006729}
+  - component: {fileID: 1104006732}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -3385,6 +3386,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1104006732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1104006728}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d822e3792b29d1841b06132ef659d4ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uiScene: UIScene
+  gameplayScene: Gameplay
 --- !u!1 &1148144384
 GameObject:
   m_ObjectHideFlags: 0
@@ -3562,6 +3577,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1091631164, guid: 6ffae93794f6d3b4da275cb47850f24c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 107441122232737530, guid: 6ffae93794f6d3b4da275cb47850f24c,
         type: 3}
       propertyPath: m_CastShadows
@@ -4117,7 +4136,6 @@ GameObject:
   - component: {fileID: 1206493271}
   - component: {fileID: 1206493270}
   - component: {fileID: 1206493272}
-  - component: {fileID: 1206493273}
   m_Layer: 0
   m_Name: MenuController
   m_TagString: Untagged
@@ -4168,18 +4186,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   instructionsPanel: {fileID: 2136596699}
   instructionsText: {fileID: 1171589727}
---- !u!114 &1206493273
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1206493269}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3a727fa86d6aae34ea82f1a294e4ab0e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1226207589
 GameObject:
   m_ObjectHideFlags: 0
