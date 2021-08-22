@@ -30,9 +30,9 @@ public class MovementController : MonoBehaviour
     void FixedUpdate()
     {
 
-        if(transform.position.y < 0f)
+        if (transform.position.y < 0f)
         {
-            float displacementMult = Mathf.Clamp01(-transform.position.y) * (buoyancy + UnityEngine.Random.Range(0,0.25f));
+            float displacementMult = Mathf.Clamp01(-transform.position.y) * (buoyancy + UnityEngine.Random.Range(0, 0.25f));
             rigidbody.AddForce(Vector3.up * Mathf.Abs(Physics.gravity.y) * displacementMult, ForceMode.Acceleration);
         }
 
@@ -51,6 +51,12 @@ public class MovementController : MonoBehaviour
     {
         if (other.tag == "SpeedUp")
             rigidbody.AddForce(other.GetComponent<SpeedEvent>().force, ForceMode.Acceleration);
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == "SpeedUp")
             other.gameObject.GetComponent<AudioSource>().Play();
+
     }
 }
