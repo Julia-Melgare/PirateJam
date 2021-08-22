@@ -10,9 +10,52 @@ public class MultiSceneController : MonoBehaviour
 
     public void LoadFirstLevel()
     {
-        SceneManager.LoadSceneAsync(gameplayScene);
+        SceneManager.LoadSceneAsync("Level01");
+
+        SceneManager.LoadSceneAsync(gameplayScene, LoadSceneMode.Additive);
         SceneManager.LoadSceneAsync(uiScene, LoadSceneMode.Additive);
-        SceneManager.LoadSceneAsync("Level01", LoadSceneMode.Additive);
+    }
+
+    public void LoadNextLevel()
+    {
+        var activeName = SceneManager.GetActiveScene().name;
+
+        int sceneId = (int.Parse(activeName.Split('0')[1]) + 1);
+
+        
+
+        var next = "Level0" + sceneId;
+
+        if (sceneId > 2)
+        {
+            next = "TitleScreen";
+        }
+
+        Unload(activeName);
+
+        LoadLevel(next);
+
+    }
+
+    private void Unload(string name)
+    {
+        SceneManager.UnloadSceneAsync(name);
+        SceneManager.UnloadSceneAsync(gameplayScene);
+        SceneManager.UnloadSceneAsync(uiScene);
+    }
+
+    public void Reload()
+    {
+        var active = SceneManager.GetActiveScene();
+        LoadLevel(active.name);
+
+    }
+
+    private void LoadLevel(string level)
+    {
+        SceneManager.LoadSceneAsync(level);
+        SceneManager.LoadSceneAsync(gameplayScene, LoadSceneMode.Additive);
+        SceneManager.LoadSceneAsync(uiScene, LoadSceneMode.Additive);
     }
 
     public void LoadMenu()
