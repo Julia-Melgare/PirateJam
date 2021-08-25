@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/TitleScreen.unity
     guid: eeed94062c7c7454abeadb731f884288
   - enabled: 1
-    path: Assets/Scenes/Gameplay.unity
+    path: Assets/Scenes/Gameplay/Gameplay.unity
     guid: 3d6c6b1af4cbcd545aebb13b22e664f3
   - enabled: 1
     path: Assets/Scenes/UIScene.unity
