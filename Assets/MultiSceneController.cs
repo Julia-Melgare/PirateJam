@@ -8,6 +8,15 @@ public class MultiSceneController : MonoBehaviour
     public string uiScene;
     public string gameplayScene;
 
+    public void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            Reload();
+        }
+    }
+
+
     public void LoadFirstLevel()
     {
         SceneManager.LoadSceneAsync("Level01");

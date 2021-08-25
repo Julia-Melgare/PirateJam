@@ -707,7 +707,7 @@ MonoBehaviour:
     to find your destination: treasure!
 
     The wind is always blowing, and it pushes
-    your ship forward.'
+    your ship forward. (Press R if you get stuck anywhere!)'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 579c48ca93294b94693a667daa8161e5, type: 2}
   m_sharedMaterial: {fileID: 8745400756030215913, guid: 579c48ca93294b94693a667daa8161e5,
