@@ -1,6 +1,7 @@
 # Pirate Jam
 
 ![ezgif com-gif-maker_3](https://user-images.githubusercontent.com/42148950/131026234-7cc0ac78-458e-4967-9995-680accec9f5b.gif)
+Checkout the game's page on [https://julia-melgare.itch.io/pirate-jam](itch-io)!
 
 In this game, you are stuck in a real jam - a pirate jam!
 
