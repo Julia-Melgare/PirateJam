@@ -19,4 +19,6 @@ Controls:
 - Mouse Left Click: shoot cannonballs
 - R key: restart the level
 
+[Water shader based on a shader previously made by the developers](https://github.com/Julia-Melgare/Deformable-Water).
+
 ![0aUZhb](https://user-images.githubusercontent.com/42148950/131026306-5561ccc0-95b5-4853-9357-746eda191f2c.gif)
