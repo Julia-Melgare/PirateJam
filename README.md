@@ -8,3 +8,10 @@ Although there aren't any other ships for now, throughout your travels you will 
 
 Some parts of the sea also have stronger currents which will give you a boost if you pass through them. Be sure to use them wisely!
 
+Controls:
+
+- A/D Left/Right arrows: turn the ship's sails
+- Mouse Wheel: aim the ship's cannons
+- Mouse Left Click: shoot cannonballs
+- R key: restart the level
+
